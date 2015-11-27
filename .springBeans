@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.7.1.201510041102-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>WebContent/WEB-INF/picture-servlet.xml</config>
+		<config>src/emon/spring/project/web/config/dao-context.xml</config>
+		<config>src/emon/spring/project/web/config/service-context.xml</config>
+		<config>src/emon/spring/project/web/config/security-context.xml</config>
+		<config>src/emon/spring/project/web/config/helper-context.xml</config>
+		<config>src/emon/spring/project/web/config/validation-context.xml</config>
+		<config>java:emon.spring.project.web.validator.CustomEmailValidator</config>
+		<config>java:emon.spring.project.web.validator.CustomImageValidator</config>
+		<config>java:emon.spring.project.web.helper.DeleteImageFile</config>
+		<config>java:emon.spring.project.web.helper.ImageIdGenerator</config>
+		<config>java:emon.spring.project.web.dao.LikeAndCommentDao</config>
+		<config>java:emon.spring.project.web.dao.PicDao</config>
+		<config>java:emon.spring.project.web.helper.PixIdGenerator</config>
+		<config>java:emon.spring.project.web.dao.registrationDao</config>
+		<config>java:emon.spring.project.web.dao.RetriveUserInfoDao</config>
+	</configs>
+	<autoconfigs>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>
